@@ -53,6 +53,7 @@ typedef enum{
 - (void)refreshLastUpdatedDate;
 - (void)egoRefreshScrollViewDidScroll:(UIScrollView *)scrollView;
 - (void)egoRefreshScrollViewDidEndDragging:(UIScrollView *)scrollView;
+- (void)egoRefreshScrollViewDataSourceDidBeginLoading:(UIScrollView *)scrollView;
 - (void)egoRefreshScrollViewDataSourceDidFinishedLoading:(UIScrollView *)scrollView;
 - (void)egoRefreshScrollViewDataSourceDidBeginStreaming:(UIScrollView *)scrollView;
 - (void)egoRefreshScrollViewDataSourceDidEndStreaming:(UIScrollView *)scrollView;
